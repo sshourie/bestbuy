@@ -10,7 +10,7 @@
 
 ## Data exploration
 - Several negative or zero daily units
-- Competitor prices only know for 63% of lines
+- Competitor prices not know for 63% of entries
 - ...
 
 ## Models
