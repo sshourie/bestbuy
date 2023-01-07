@@ -11,7 +11,8 @@
 ## Data exploration
 - Several negative or zero daily units
 - Competitor prices not know for 63% of entries
-- ...
+- Checking sales across categories (diff levels) and time
+- 
 
 ## Models
 - Hierarchical Bayesian model: Create separate models for each level of the given hierarchy -> fit using Bayesian inference -> Use Markov chain Monte Carlo (MCMC) in PyMC3 Python library
@@ -21,6 +22,8 @@
 - Less suitable:
 -- Exponential smoothing: there are probably no trends in our data
 -- Neural networks: might take too long and hence decrease our score
+- Feature based gradient boosting
+- LSTM
 
 
 ## External data
@@ -30,3 +33,15 @@
 - Demographics (probably less suitable)
 - Household spending
 - Fed's supply chain pressure index
+
+## Features
+- Previous sales lag (diff intervals)
+- Amount of discount
+- Price of previous weeks (diff intervals)
+- Price elasticity (internal data)
+- Time since last promotion
+- Number of promotions greater than XX%
+- Seasonal index feature (inflation, internal, etc.)
+- Competitor prices
+- Inventory levels - status
+- Holiday features
