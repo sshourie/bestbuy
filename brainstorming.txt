@@ -45,3 +45,6 @@
 - Competitor prices
 - Inventory levels - status
 - Holiday features
+
+## Questions
+- Missing data
