@@ -1,7 +1,15 @@
 # Brainstorming ideas
 
-## Data exploration
+## Data formatting
+- Need to remove spaces at the end of individual cells / before commas in csv
+- Need to replace ? with N/A or similar
+- Maybe need to convert data format
+- Maybe remove ML and VP in categories for improved readability
+- Be aware of prices that have comma and are in "" in csv
 
+## Data exploration
+- Several minus or negative daily units
+- Competitor prices only know for 63% of lines
 
 ## Models
 
