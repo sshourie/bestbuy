@@ -1,3 +1,3 @@
-# MBA Best Buy Project
+# MSA Best Buy Project
 
 Let's keep this repo private until we win ;)
