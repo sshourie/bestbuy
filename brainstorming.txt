@@ -6,12 +6,27 @@
 - Maybe need to convert data format
 - Maybe remove ML and VP in categories for improved readability
 - Be aware of prices that have comma and are in "" in csv
+- ...
 
 ## Data exploration
-- Several minus or negative daily units
+- Several negative or zero daily units
 - Competitor prices only know for 63% of lines
+- ...
 
 ## Models
+- Hierarchical Bayesian model: Create separate models for each level of the given hierarchy -> fit using Bayesian inference -> Use Markov chain Monte Carlo (MCMC) in PyMC3 Python library
+- ARIMA
+- XGBoost
+- Decision tree or random forest
+- Less suitable:
+-- Exponential smoothing: there are probably no trends in our data
+-- Neural networks: might take too long and hence decrease our score
 
 
 ## External data
+- Inflation data
+- University of Michigan's Consumer sentiment index
+- Weather data
+- Demographics (probably less suitable)
+- Household spending
+- Fed's supply chain pressure index
