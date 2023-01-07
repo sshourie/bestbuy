@@ -1,9 +1,9 @@
 # Brainstorming ideas
 
 ## Data formatting
-- Need to remove spaces at the end of individual cells / before commas in csv
+- Need to remove spaces at the end of individual entries / before commas in csv
 - Need to replace ? with N/A or similar
-- Maybe need to convert data format
+- Maybe need to convert date format
 - Maybe remove ML and VP in categories for improved readability
 - Be aware of prices that have comma and are in "" in csv
 - ...
