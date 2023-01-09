@@ -29,7 +29,7 @@
 ## External data
 - Inflation data: https://ycharts.com/indicators/us_inflation_rate
 - University of Michigan's Consumer sentiment index -> http://www.sca.isr.umich.edu/tables.html
-- Weather data
+- Weather data: https://www.ncei.noaa.gov/access/billions/events
 - Demographics (probably less suitable)
 - Household spending: https://fred.stlouisfed.org/series/PCE
 - Fed's supply chain pressure index: https://ycharts.com/indicators/global_supply_chain_pressure_index
