@@ -33,7 +33,8 @@
 - Demographics (probably less suitable)
 - Household spending: https://fred.stlouisfed.org/series/PCE
 - Fed's supply chain pressure index: https://ycharts.com/indicators/global_supply_chain_pressure_index
-- Covid cases: https://ourworldindata.org/covid-cases
+- Covid cases: https://ourworldindata.org/covid-casesw
+- Unemployment rate: https://data.bls.gov/timeseries/LNS14000000
 
 ## Features
 - Previous sales lag (diff intervals)
